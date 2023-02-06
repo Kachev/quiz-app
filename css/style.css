@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    margin-bottom:100px ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+   
+}
+header{
+    
+    background-color: rgb(114, 113, 113);
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align:center;
+    z-index: 1;
+}
+#top{
+    
+}
+.card>p{
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+}
+.links{
+    color: rgb(0, 0, 0);
+
+    
+
+}
+.show_answer{
+    border-radius: 8px;
+    width: 70px;
+    height: 40px;
+    box-shadow: 1px 2px 7px rgb(0, 0, 0, 0.55); 
+}
+.card__bookmark{
+    position:absolute;
+    top: -37px;
+    right: 30px;
+}
+.card{
+    
+    top:30px;
+    border-radius: 20px;
+    position:relative;
+    margin: 20px 30px 10%;
+    border: 3px solid rgb(120, 10, 10);
+    text-align: center; 
+    background-color: rgb(135, 101, 222);
+
+}
+.nav-bar{
+    position:fixed;
+    bottom: 0px;
+    right: 2px;
+    display: flex;
+    border: 1px solid black;
+    width: 99%;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: rgb(114, 113, 113);
+    
+}

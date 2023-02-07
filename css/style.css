@@ -10,15 +10,12 @@ body{
    
 }
 header{
-    
+   
     background-color: rgb(114, 113, 113);
     border-radius: 20px;
     border: 1px solid black;
     text-align:center;
-    z-index: 1;
-}
-#top{
-    
+
 }
 .card>p{
     position: relative;
